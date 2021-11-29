@@ -1,3 +1,71 @@
 <resources>
     <string name="app_name">TtsTJ</string>
+
+    <string name="question1">1. 시험 한달전 당신의 공부유형은?</string>
+    <string name="question1_answer1">a. 계획을 세우고 그 계획에 따라 해결한다</string>
+    <string name="question1_answer2">b. 계획을 세우지만 계획대로 하지는 못한다</string>
+    <string name="question1_answer3">c. 일단 손에 잡히는 과목부터 공부한다</string>
+    <string name="question1_answer4">d. 최상의 집중도로 공부하기 위해 부엉이 모드 준비를 한다</string>
+
+    <string name="question2">2. 새해에 제일 먼저 할 일은?</string>
+    <string name="question2_answer1">a. 새해에다가 방학이니깐 일단 놀아~!~!</string>
+    <string name="question2_answer2">b. 1년 목표와 계획을 플래너에 작성한다</string>
+    <string name="question2_answer3">c. 하고싶은 것을 형식없이 적거나 머리 속으로 생각만 한다</string>
+    <string name="question2_answer4">d. 새해라고 크게 하는 것은 없다</string>
+
+    <string name="question3">3. 많은 양의 과제가 짧은 시간 안에 주어진다면?</string>
+    <string name="question3_answer1">a. 낮에는 휴식을 취하고 밤에 모든 집중력을 발휘해서 한다</string>
+    <string name="question3_answer2">b. 발등에 불떨어지기 전까지 미루고 놀다 한다</string>
+    <string name="question3_answer3">c. 시간은 적지만 계획을 세워 차차 해결해 간다</string>
+    <string name="question3_answer4">d. 이거했다 저거했다 하다보니 손에 잡히는거 먼저한다</string>
+
+    <string name="question4">4. 약속시간에 늦은 당신의 모습은?</string>
+    <string name="question4_answer1">a. 약속 상대에게 상황을 말하고 얼른 가도록 노력한다</string>
+    <string name="question4_answer2">b. 오랜만에 낮에 일어나 힘들어 한다</string>
+    <string name="question4_answer3">c. 노는데 진심인 나는 약속시간에 늦은적이 없다 ㅋ </string>
+    <string name="question4_answer4">d. 계획이 하나 틀어졌으니 나머지 하루계획도 다 다시 세운다</string>
+
+    <string name="question5">5. 오랜만에 하루동안 쉬는 날이 주어진다면?</string>
+    <string name="question5_answer1">a. 밖에 나가 친구나 다른 사람들과 논다</string>
+    <string name="question5_answer2">b. 낮에 끝내주게 잠을 자고 밤새 정주행 등 취미생활을 한다</string>
+    <string name="question5_answer3">c. 일단 생각나는 것부터 하면서 오늘 하루를 즐긴다</string>
+    <string name="question5_answer4">d. 그동안 밀려왔던 집안일, 자기계발 등 하루가 부족하게 보낸다</string>
+
+    <string name="question6">6. 당신의 일과 중 가장 많은 부분을 차지하는 것은?</string>
+    <string name="question6_answer1">a. 한번뿐인 인생 당연히 노는거지!</string>
+    <string name="question6_answer2">b. 공부와 노는 것 쉬는 것 등 모두 적당히 분배해 비슷하다</string>
+    <string name="question6_answer3">c. 잠 빼고 모든 것들!!! 할게 너무나 많아서 바빠 죽겠다ㅠ</string>
+    <string name="question6_answer4">d. 이것저것 조금씩 뒤죽박죽해서 모르겠ㄷ,,</string>
+
+    <string name="question7">7. 과제나 자기계발 등 생산적인 일을 하는 시간대는?</string>
+    <string name="question7_answer1">a. 할 일과 그 양에 따라 시간이 바뀐다! 중요한 순서대로 계획세워서 수행한다</string>
+    <string name="question7_answer2">b. 계획이 틀어져서 자꾸 바뀐다,,,</string>
+    <string name="question7_answer3">c. 낮에 했다가 밤에 했다가 될때 한다</string>
+    <string name="question7_answer4">d. 음,,, 노느라 잘 안함ㅋ</string>
+
+    <string name="question8">8. 오늘 할 일을 다 하지 못한 당신의 모습은?</string>
+    <string name="question8_answer1">a. 잠을 안자는 한이 있더라도 끝내려고 노력한다</string>
+    <string name="question8_answer2">b. 대충하고 끝낸다</string>
+    <string name="question8_answer3">c. 할 일을 신경쓰지 않고 내 취미 생활을 즐긴다</string>
+    <string name="question8_answer4">d. 다음 날로 미룬다</string>
+
+    <string name="question9">9. 나의 용돈을 주로 소비하는 것은?</string>
+    <string name="question9_answer1">a. 책, 문제집 등 자기계발 관련 소비</string>
+    <string name="question9_answer2">b. 시계, 플래너, 교통비 등 시간 관련 소비</string>
+    <string name="question9_answer3">c. 뮤지컬, 공연, 옷, 악세서리 등 취미생활 관련 소비</string>
+    <string name="question9_answer4">d. 기타</string>
+
+    <string name="question10">10. 자기전 오늘 하루를 마친 나의 소감은?</string>
+    <string name="question10_answer1">a. 오늘 하루도 알차게 잘 보낸거 같다</string>
+    <string name="question10_answer2">b. 정확히 기억은 안나지만 오늘의 나 수고했다!</string>
+    <string name="question10_answer3">c. 오늘 하루는 놀았으니 내일은 열심히 공부해야지!</string>
+    <string name="question10_answer4">d. 오늘은 누워있기만 하고 한 일이 별로 없다...</string>
+
+    <string name="result_0">계획과는 거리가 먼 당신, 할 일들을 주로 기분에 따라 즉흥적으로 하는 편입니다. 기분에 따라 하기에 효율이 잘 올라갈 때도 있지만 그와 반대로 한 가지 일을 하는 데 오랜 시간이 걸릴 수도 있습니다. 밤 낮 또한 자주 바뀌는 편이며 손에 잡히는 일부터 시작하기에 모든 일을 제시간 안에 못 끝낼 때도 있지만 한 번 시작한 일은 거의 완벽에 가깝게 끝을 냅니다. 안정적인 시간 소비를 위해 포스트잇이나 자주 보는 노트에 오늘 해야 할 일을 모든 것을 다 적지 않아도 간단하게라도 적어보는 것을 추천합니다. 그러면 할 일에 따른 알맞은 시간 분배를 하는 데 도움이 될 것입니다.</string>
+    <string name="result_1">모든 계획을 철저히 지키는 스타일이에요. 다른 유형에 비해 플래너를 잘 작성하는 편이에요. 계획이 흐트러지거나 약속이 취소되는 것에 스트레스를 받을 수도 있어요. MBTI에서 흔히들 말하는 J 중 가장 J 같은 유형이에요. 철저한 시간 분배로 인해 과제나 할 일을 늦게 완료할 일은 거의 없는 편이에요. 하지만 많은 일이 몰아칠 때는 완료하지 못할 수도 있다는 부담감에 예민해 줄 수 있어요. 알찬 계획도 좋지만 휴식과 일을 적절히 분배한 계획을 세울 수 있도록 하는 것을 추천해요.</string>
+    <string name="result_2">하루가 부족하고 모든 일에 적극적인 스타일이에요 할 일이 너무 많아 피로나 스트레스를 많이 받을 수도 있으니 컨디션 관리에 유의해야 해요. 도전 정신이 매우 뛰어난 편이고 활동적인 성격으로 인해 많이 사람들에게 긍정적인 인상을 줄 수 있어요. 자신의 시간을 잘 조율하도록 할 일을 쪽지에 적거나 간단하게라도 메모를 하는 것을 추천합니다. 너무 완벽한 플래너를 적어야 한다는 부담을 가지지 않는 것이 중요합니다.</string>
+    <string name="result_3">낮은 휴식시간! 모든 일을 밤에 처리하는 부엉이 유형이에요. 생활 패턴으로 인해 평소 학교생활이나 회사 생활을 힘들어해요. 특히 이 유형의 학생들은 방학 때 오히려 시간을 잘 활용하는 편이에요. 하지만 남들과 다른 생활 패턴으로 인해 인간관계의 조금은 소홀할 수도 있어요. 하루에 1,2시간씩 일찍 자거나 매일 취침 시간을 정하여 평소 생활이 어렵지 않도록 노력하는 것은 어떨까요?</string>
+    <string name="result_4">놀기 위해 태어나고 놀기 위해 사는 당신! 인생에서 가장 중요한 것이 놀기와 휴식이에요. 다른 유형에 비해 학업이나 직장에 대한 스트레스는 덜 받아요. 약속 또한 많이 잡는 편이며 시간에 대한 융통성이 큰 편이에요. 하지만 일보다 휴식이 먼저기 때문에 과제나 해야 할 일을 자주 까먹어 사회나 학교에서 불이익 받거나 안 좋은 인상을 받지 않도록 주의해야 해요. 휴대폰에 알림 기능이나 캘린더 기능을 이용해 마감할 일 알람을 설정하는 것을 추천합니다.</string>
+    <string name="result_5">열심히 하기도 하고 놀기도 하지만 늘 잡생각이나 다른 일로 늘 어딘가 허술해요. 플래너를 적어도 거의 작심삼일이라 오래가지 못해요. 열심히 플래너를 적기보다는 간단한 메모로 시작하는 것을 추천합니다. 자신이 할 일을 다 완료하지 못했을 때 스트레스를 많이 받아서 예민해질 수 있으니 감정 조절에 유의해야 해요. 시간을 잘 관리한 다면 모든 일을 잘 마무리할 수 있는 능력이 생길 거예요!</string>
+    <string name="result_6">모든 스타일을 섭렴한 당신! 시간을 완벽하게 제어할 때도 있고 시간을 허무하게 날 닐 때도 있어요. 들쭉날쭉한 시간 소비로 인해 계획을 세우는 것과는 거리가 좀 멀지만 막상 작성하면은 그 누구보다 잘 작성할 수 있는 힘이 있습니다. 시간 소비 패턴을 일정하게 유지하도록 계획의 큰 틀만 잡고 그 안에서 자유롭게 시간을 소비하는 것을 추천합니다.</string>
 </resources>
