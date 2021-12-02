@@ -29,12 +29,14 @@
             android:textSize="17dp"
             android:textColor="@color/black"/>
         <Button
+            android:id="@+id/main_btn"
             android:layout_width="160dp"
             android:layout_height="60dp"
             android:layout_gravity="center"
             android:layout_marginTop="50dp"
             android:backgroundTint="#5d99c6"
             android:text="시작하기"
+            android:textColor="@color/white" 
             android:textSize="20dp"
             android:textStyle="bold"/>
 

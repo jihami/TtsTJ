@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:gravity="center_vertical"
     android:background="#90caf9">
 
@@ -12,7 +10,7 @@
         android:layout_width="300dp"
         android:layout_height="200dp"
         android:background="@drawable/radius"
-
+        android:backgroundTint="@color/white"
         android:layout_gravity="center"
         android:gravity="center"
         android:padding="20dp"
@@ -23,7 +21,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="@string/question1"
+            android:text="@string/question6"
             android:textSize="25dp"
             android:textColor="@color/black"
             android:textStyle="bold"/>
@@ -31,7 +29,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/btn_q1_answer1"
+        android:id="@+id/btn_q6_answer1"
         android:layout_width="300dp"
         android:layout_height="100dp"
         android:background="@drawable/radius"
@@ -40,12 +38,12 @@
         android:padding="20dp"
         android:layout_marginBottom="20dp"
         android:orientation="vertical"
-        android:text="@string/question1_answer1"
+        android:text="@string/question6_answer1"
         android:textSize="15dp"
         android:textColor="@color/black"/>
 
     <Button
-        android:id="@+id/btn_q1_answer2"
+        android:id="@+id/btn_q6_answer2"
         android:layout_width="300dp"
         android:layout_height="100dp"
         android:background="@drawable/radius"
@@ -54,12 +52,12 @@
         android:padding="20dp"
         android:layout_marginBottom="20dp"
         android:orientation="vertical"
-        android:text="@string/question1_answer2"
+        android:text="@string/question6_answer2"
         android:textSize="15dp"
         android:textColor="@color/black"/>
 
     <Button
-        android:id="@+id/btn_q1_answer3"
+        android:id="@+id/btn_q6_answer3"
         android:layout_width="300dp"
         android:layout_height="100dp"
         android:background="@drawable/radius"
@@ -68,12 +66,12 @@
         android:padding="20dp"
         android:layout_marginBottom="20dp"
         android:orientation="vertical"
-        android:text="@string/question1_answer3"
+        android:text="@string/question6_answer3"
         android:textSize="15dp"
         android:textColor="@color/black"/>
 
     <Button
-        android:id="@+id/btn_q1_answer4"
+        android:id="@+id/btn_q6_answer4"
         android:layout_width="300dp"
         android:layout_height="100dp"
         android:background="@drawable/radius"
@@ -82,8 +80,8 @@
         android:padding="20dp"
         android:layout_marginBottom="20dp"
         android:orientation="vertical"
-        android:text="@string/question1_answer4"
+        android:text="@string/question6_answer4"
         android:textSize="15dp"
-        android:textColor="@color/black" />
+        android:textColor="@color/black"/>
 
 </LinearLayout>
