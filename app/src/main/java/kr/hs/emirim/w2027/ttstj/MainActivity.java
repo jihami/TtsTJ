@@ -19,10 +19,17 @@ public class MainActivity extends AppCompatActivity {
         mainbtn.setOnClickListener(btnListener);
     }
 
+//    View.OnClickListener btnListener = new View.OnClickListener() {
+//        @Override
+//        public void onClick(View view) {
+//            Intent intent = new Intent(getApplicationContext(), Question1.class);
+//            startActivity(intent);
+//        }
+//    };
     View.OnClickListener btnListener = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            Intent intent = new Intent(getApplicationContext(), Question1.class);
+            Intent intent = new Intent(getApplicationContext(), Review.class);
             startActivity(intent);
         }
     };
