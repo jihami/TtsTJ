@@ -12,22 +12,22 @@ public class DBHelper extends SQLiteOpenHelper {
 
     // Person Table생성
     @Override public void onCreate(SQLiteDatabase db) {
-        db.execSQL("CREATE TABLE Person(name TEXT, Age INT, ADDR TEXT)");
+        db.execSQL("CREATE TABLE Person(name TEXT, point INT, review TEXT)");
     }
     // Person Table Upgrade
     @Override public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         db.execSQL("DROP TABLE IF EXISTS Person"); onCreate(db);
     }
     // Person Table 데이터 입력
-    public void insert(String name, int age, String Addr) {
+    public void insert(String name, int point, String review) {
         SQLiteDatabase db = getWritableDatabase();
-        db.execSQL("INSERT INTO Person VALUES('" + name + "', " + age + ", '" + Addr + "')");
+        db.execSQL("INSERT INTO Person VALUES('" + name + "', " + point + ", '" + review + "')");
         db.close();
     }
     // Person Table 데이터 수정
-    public void Update(String name, int age, String Addr) {
+    public void Update(String name, int point, String review) {
         SQLiteDatabase db = getWritableDatabase();
-        db.execSQL("UPDATE Person SET age = " + age + ", ADDR = '" + Addr + "'" + " WHERE NAME = '" + name + "'"); db.close();
+        db.execSQL("UPDATE Person SET point = " + point + ", review = '" + review + "'" + " WHERE NAME = '" + name + "'"); db.close();
     }
     // Person Table 데이터 삭제
     public void Delete(String name) {
