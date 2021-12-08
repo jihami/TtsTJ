@@ -10,7 +10,7 @@
     android:background="#90caf9">
 
     <LinearLayout
-        android:layout_width="300dp"
+        android:layout_width="360dp"
         android:layout_height="700dp"
         android:background="@drawable/radius"
         android:backgroundTint="@color/white"
@@ -36,7 +36,7 @@
             android:layout_marginTop="50dp"
             android:backgroundTint="#5d99c6"
             android:text="시작하기"
-            android:textColor="@color/white" 
+            android:textColor="@color/white"
             android:textSize="20dp"
             android:textStyle="bold"/>
 
