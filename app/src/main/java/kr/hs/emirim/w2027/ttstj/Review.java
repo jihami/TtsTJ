@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class Review extends AppCompatActivity implements View.OnClickListener {
 
@@ -42,6 +43,8 @@ public class Review extends AppCompatActivity implements View.OnClickListener {
         switch (v.getId()) {
             case R.id.btnSave:
                 dbHelper.insert(edtName.getText().toString(),Integer.parseInt(edtP.getText().toString()), edtR.getText().toString());
+                btnSave.setEnabled(false);
+                Toast.makeText(getApplicationContext(), "데이터 삽입 완료.", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.btnSelect:
                 viewResult.setText(dbHelper.getResult());
