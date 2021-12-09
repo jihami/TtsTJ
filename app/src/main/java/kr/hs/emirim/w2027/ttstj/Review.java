@@ -2,6 +2,7 @@ package kr.hs.emirim.w2027.ttstj;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -11,14 +12,12 @@ import android.widget.Toast;
 
 public class Review extends AppCompatActivity implements View.OnClickListener {
 
-    // 디자인 변수 선언
     Button btnSave;
     Button btnSelect;
     EditText edtName;
     EditText edtP;
     EditText edtR;
     TextView viewResult;
-    // DBHelper
     DBHelper dbHelper;
 
     @Override
@@ -33,7 +32,9 @@ public class Review extends AppCompatActivity implements View.OnClickListener {
         edtR = (EditText) findViewById(R.id.edtR);
         viewResult = (TextView) findViewById(R.id.txtResult);
 
-        // 버튼 클릭 이벤트 정의
+        Button home = findViewById(R.id.btnHome);
+        home.setOnClickListener(btnListener);
+
         btnSave.setOnClickListener(this);
         btnSelect.setOnClickListener(this);
         dbHelper = new DBHelper(Review.this, 1);
@@ -51,4 +52,11 @@ public class Review extends AppCompatActivity implements View.OnClickListener {
                 break;
         }
     }
+    View.OnClickListener btnListener = new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+            startActivity(intent);
+        }
+    };
 }

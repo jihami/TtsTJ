@@ -34,7 +34,7 @@
             android:layout_height="200dp"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
-            android:layout_marginBottom="30dp" />
+            android:layout_marginBottom="10dp" />
 
         <TextView
             android:id="@+id/result_type"
@@ -45,7 +45,7 @@
             android:textColor="@color/black"
             android:textStyle="bold"
             android:textSize="20dp"
-            android:paddingBottom="20dp"/>
+            android:paddingBottom="10dp"/>
 
         <TextView
             android:id="@+id/result_text"
@@ -57,12 +57,13 @@
             android:paddingRight="15dp"
             android:paddingLeft="15dp"/>
         <Button
+            android:id="@+id/btn_Result"
             android:layout_width="160dp"
             android:layout_height="60dp"
             android:layout_gravity="bottom|center"
             android:layout_marginTop="30dp"
             android:backgroundTint="#5d99c6"
-            android:text="버튼"
+            android:text="리뷰"
             android:textColor="@color/white"
             android:textSize="20dp"
             android:textStyle="bold"/>

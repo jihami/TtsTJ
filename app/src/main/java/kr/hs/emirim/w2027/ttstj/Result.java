@@ -47,6 +47,14 @@ public class Result extends AppCompatActivity {
             ResultType.setText(R.string.type_6);
             ResultText.setText(R.string.result_6);
         }
+        Button btnR = findViewById(R.id.btn_Result);
+        btnR.setOnClickListener(btnListener);
     }
-
+    View.OnClickListener btnListener = new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            Intent intent = new Intent(getApplicationContext(), Review.class);
+            startActivity(intent);
+        }
+    };
 }
