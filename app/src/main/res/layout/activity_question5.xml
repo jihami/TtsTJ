@@ -1,28 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:gravity="center_vertical"
     android:background="#90caf9">
 
     <LinearLayout
-        android:layout_width="300dp"
-        android:layout_height="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px"
         android:background="@drawable/radius"
-        android:backgroundTint="@color/white"
         android:layout_gravity="center"
         android:gravity="center"
-        android:padding="20dp"
+        android:padding="25dp"
         android:layout_marginBottom="40dp"
         android:orientation="vertical">
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="20px"
+            android:layout_marginRight="20px"
             android:gravity="center"
             android:text="@string/question5"
-            android:textSize="25dp"
+            android:textSize="20dp"
             android:textColor="@color/black"
             android:textStyle="bold"/>
 
@@ -30,8 +35,10 @@
 
     <Button
         android:id="@+id/btn_q5_answer1"
-        android:layout_width="300dp"
-        android:layout_height="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px"
         android:background="@drawable/radius"
         android:layout_gravity="center"
         android:gravity="center"
@@ -44,8 +51,10 @@
 
     <Button
         android:id="@+id/btn_q5_answer2"
-        android:layout_width="300dp"
-        android:layout_height="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px"
         android:background="@drawable/radius"
         android:layout_gravity="center"
         android:gravity="center"
@@ -58,8 +67,10 @@
 
     <Button
         android:id="@+id/btn_q5_answer3"
-        android:layout_width="300dp"
-        android:layout_height="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px"
         android:background="@drawable/radius"
         android:layout_gravity="center"
         android:gravity="center"
@@ -72,8 +83,10 @@
 
     <Button
         android:id="@+id/btn_q5_answer4"
-        android:layout_width="300dp"
-        android:layout_height="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px"
         android:background="@drawable/radius"
         android:layout_gravity="center"
         android:gravity="center"
@@ -82,6 +95,6 @@
         android:orientation="vertical"
         android:text="@string/question5_answer4"
         android:textSize="15dp"
-        android:textColor="@color/black"/>
+        android:textColor="@color/black" />
 
 </LinearLayout>
