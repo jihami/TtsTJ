@@ -58,7 +58,6 @@ public class Question1 extends AppCompatActivity {
             three += 1;
             Intent intent = new Intent(getApplicationContext(), Question2.class);
             startActivity(intent);
-            System.out.println(zero + " " + one + " "+two + " "+three + " "+four + " "+five + " "+six);
         }
     };
 }
