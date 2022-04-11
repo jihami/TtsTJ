@@ -8,7 +8,6 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class Question7 extends AppCompatActivity {
-    static int q7;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,7 +27,8 @@ public class Question7 extends AppCompatActivity {
     View.OnClickListener btnListener1 = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            q7 = 1;
+            Question1.one += 1;
+            Question1.six += 1;
             Intent intent = new Intent(getApplicationContext(), Question8.class);
             startActivity(intent);
         }
@@ -36,7 +36,8 @@ public class Question7 extends AppCompatActivity {
     View.OnClickListener btnListener2 = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            q7 = 2;
+            Question1.two += 1;
+            Question1.five += 1;
             Intent intent = new Intent(getApplicationContext(), Question8.class);
             startActivity(intent);
         }
@@ -44,7 +45,8 @@ public class Question7 extends AppCompatActivity {
     View.OnClickListener btnListener3 = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            q7 = 3;
+            Question1.one += 1;
+            Question1.three += 1;
             Intent intent = new Intent(getApplicationContext(), Question8.class);
             startActivity(intent);
         }
@@ -52,9 +54,10 @@ public class Question7 extends AppCompatActivity {
     View.OnClickListener btnListener4 = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            q7 = 4;
+            Question1.four += 1;
             Intent intent = new Intent(getApplicationContext(), Question8.class);
             startActivity(intent);
+            System.out.println(Question1.zero+" "+Question1.one + " "+Question1.two + " "+Question1.three + " "+Question1.four + " "+Question1.five + " "+Question1.six);
         }
     };
 

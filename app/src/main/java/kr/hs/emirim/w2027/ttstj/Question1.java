@@ -8,7 +8,7 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class Question1 extends AppCompatActivity {
-    static int q1;
+    static int zero = 0, one = 0, two = 0, three = 0, four = 0, five = 0, six = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,7 +28,7 @@ public class Question1 extends AppCompatActivity {
     View.OnClickListener btnListener1 = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            q1 = 1;
+            one += 1;
             Intent intent = new Intent(getApplicationContext(), Question2.class);
             startActivity(intent);
         }
@@ -36,7 +36,9 @@ public class Question1 extends AppCompatActivity {
     View.OnClickListener btnListener2 = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            q1 = 2;
+            two += 1;
+            five += 1;
+            six += 1;
             Intent intent = new Intent(getApplicationContext(), Question2.class);
             startActivity(intent);
         }
@@ -44,7 +46,8 @@ public class Question1 extends AppCompatActivity {
     View.OnClickListener btnListener3 = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            q1 = 3;
+            zero += 1;
+            four +=1;
             Intent intent = new Intent(getApplicationContext(), Question2.class);
             startActivity(intent);
         }
@@ -52,10 +55,10 @@ public class Question1 extends AppCompatActivity {
     View.OnClickListener btnListener4 = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            q1 = 4;
+            three += 1;
             Intent intent = new Intent(getApplicationContext(), Question2.class);
             startActivity(intent);
+            System.out.println(zero + " " + one + " "+two + " "+three + " "+four + " "+five + " "+six);
         }
     };
-
 }
