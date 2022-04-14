@@ -63,7 +63,7 @@ public class Result extends AppCompatActivity {
             ResultText.setText(R.string.result_6);
         }
         Button btnR = findViewById(R.id.btn_Result);
-        btnR.setOnClickListenerpk(btnListener);
+        btnR.setOnClickListener(btnListener);
 
     }
     View.OnClickListener btnListener = new View.OnClickListener() {
