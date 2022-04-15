@@ -5,45 +5,45 @@
     <string name="question1_answer1">a. 계획을 세우고 그 계획에 따라 해결한다</string>
     <string name="question1_answer2">b. 계획을 세우지만 계획대로 하지는 못한다</string>
     <string name="question1_answer3">c. 일단 손에 잡히는 과목부터 공부한다</string>
-    <string name="question1_answer4">d. 최상의 집중도로 공부하기 위해 부엉이 모드 준비를 한다</string>
+    <string name="question1_answer4">d. 최상의 집중도로 공부하기 위해\n부엉이 모드 준비를 한다</string>
 
     <string name="question2">2. 새해에 제일 먼저 할 일은?</string>
     <string name="question2_answer1">a. 새해에다가 방학이니깐 일단 놀아~!~!</string>
     <string name="question2_answer2">b. 1년 목표와 계획을 플래너에 작성한다</string>
-    <string name="question2_answer3">c. 하고싶은 것을 형식없이 적거나 머리 속으로 생각만 한다</string>
+    <string name="question2_answer3">c. 하고싶은 것을 형식없이 적거나\n머리 속으로 생각만 한다</string>
     <string name="question2_answer4">d. 새해라고 크게 하는 것은 없다</string>
 
-    <string name="question3">3. 많은 양의 과제가 짧은 시간 안에 주어진다면?</string>
-    <string name="question3_answer1">a. 낮에는 휴식을 취하고 밤에 모든 집중력을 발휘해서 한다</string>
+    <string name="question3">3. 많은 양의 과제가\n짧은 시간 안에 주어진다면?</string>
+    <string name="question3_answer1">a. 낮에는 휴식을 취하고\n밤에 모든 집중력을 발휘해서 한다</string>
     <string name="question3_answer2">b. 발등에 불떨어지기 전까지 미루고 놀다 한다</string>
     <string name="question3_answer3">c. 시간은 적지만 계획을 세워 차차 해결해 간다</string>
-    <string name="question3_answer4">d. 이거했다 저거했다 하다보니 손에 잡히는거 먼저한다</string>
+    <string name="question3_answer4">d. 이거했다 저거했다 하다보니\n손에 잡히는거 먼저한다</string>
 
     <string name="question4">4. 약속시간에 늦은 당신의 모습은?</string>
     <string name="question4_answer1">a. 약속 상대에게 상황을 말하고 얼른 가도록 노력한다</string>
     <string name="question4_answer2">b. 오랜만에 낮에 일어나 힘들어 한다</string>
     <string name="question4_answer3">c. 노는데 진심인 나는 약속시간에 늦은적이 없다 ㅋ </string>
-    <string name="question4_answer4">d. 계획이 하나 틀어졌으니 나머지 하루계획도 다 다시 세운다</string>
+    <string name="question4_answer4">d. 계획이 하나 틀어졌으니\n나머지 하루계획도 다 다시 세운다</string>
 
-    <string name="question5">5. 오랜만에 하루동안 쉬는 날이 주어진다면?</string>
+    <string name="question5">5. 오랜만에 하루동안\n쉬는 날이 주어진다면?</string>
     <string name="question5_answer1">a. 밖에 나가 친구나 다른 사람들과 논다</string>
-    <string name="question5_answer2">b. 낮에 끝내주게 잠을 자고 밤새 정주행 등 취미생활을 한다</string>
+    <string name="question5_answer2">b. 낮에 끝내주게 잠을 자고 밤새 정주행 등\n취미생활을 한다</string>
     <string name="question5_answer3">c. 일단 생각나는 것부터 하면서 오늘 하루를 즐긴다</string>
-    <string name="question5_answer4">d. 그동안 밀려왔던 집안일, 자기계발 등 하루가 부족하게 보낸다</string>
+    <string name="question5_answer4">d. 그동안 밀려왔던 집안일, 자기계발 등\n하루가 부족하게 보낸다</string>
 
-    <string name="question6">6. 당신의 일과 중 가장 많은 부분을 차지하는 것은?</string>
+    <string name="question6">6. 당신의 일과 중\n가장 많은 부분을 차지하는 것은?</string>
     <string name="question6_answer1">a. 한번뿐인 인생 당연히 노는거지!</string>
-    <string name="question6_answer2">b. 공부와 노는 것 쉬는 것 등 모두 적당히 분배해 비슷하다</string>
-    <string name="question6_answer3">c. 잠 빼고 모든 것들!!! 할게 너무나 많아서 바빠 죽겠다ㅠ</string>
+    <string name="question6_answer2">b. 공부와 노는 것 쉬는 것 등\n모두 적당히 분배해 비슷하다</string>
+    <string name="question6_answer3">c. 잠 빼고 모든 것들!!!\n할게 너무나 많아서 바빠 죽겠다ㅠ</string>
     <string name="question6_answer4">d. 이것저것 조금씩 뒤죽박죽해서 모르겠ㄷ,,</string>
 
-    <string name="question7">7. 과제나 자기계발 등 생산적인 일을 하는 시간대는?</string>
-    <string name="question7_answer1">a. 할 일과 그 양에 따라 시간이 바뀐다! 중요한 순서대로 계획세워서 수행한다</string>
+    <string name="question7">7. 과제나 자기계발 등\n생산적인 일을 하는 시간대는?</string>
+    <string name="question7_answer1">a. 할 일과 그 양에 따라 시간이 바뀐다!\n중요한 순서대로 계획세워서 수행한다</string>
     <string name="question7_answer2">b. 계획이 틀어져서 자꾸 바뀐다,,,</string>
     <string name="question7_answer3">c. 낮에 했다가 밤에 했다가 될때 한다</string>
     <string name="question7_answer4">d. 음,,, 노느라 잘 안함ㅋ</string>
 
-    <string name="question8">8. 오늘 할 일을 다 하지 못한 당신의 모습은?</string>
+    <string name="question8">8. 오늘 할 일을\n다 하지 못한 당신의 모습은?</string>
     <string name="question8_answer1">a. 잠을 안자는 한이 있더라도 끝내려고 노력한다</string>
     <string name="question8_answer2">b. 대충하고 끝낸다</string>
     <string name="question8_answer3">c. 할 일을 신경쓰지 않고 내 취미 생활을 즐긴다</string>
@@ -55,7 +55,7 @@
     <string name="question9_answer3">c. 뮤지컬, 공연, 옷, 악세서리 등 취미생활 관련 소비</string>
     <string name="question9_answer4">d. 기타</string>
 
-    <string name="question10">10. 자기전 오늘 하루를 마친 나의 소감은?</string>
+    <string name="question10">10. 자기전 오늘 하루를\n마친 나의 소감은?</string>
     <string name="question10_answer1">a. 오늘 하루도 알차게 잘 보낸거 같다</string>
     <string name="question10_answer2">b. 정확히 기억은 안나지만 오늘의 나 수고했다!</string>
     <string name="question10_answer3">c. 오늘 하루는 놀았으니 내일은 열심히 공부해야지!</string>
